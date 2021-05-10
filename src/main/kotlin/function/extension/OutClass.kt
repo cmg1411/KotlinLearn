@@ -1,4 +1,4 @@
-package function
+package function.extension
 
 // public static final 과 같음
 // const 를 붙이지 않으면 getter 를 통한 접근으로 자바 코드로 노출. 이는 부자연스러움
