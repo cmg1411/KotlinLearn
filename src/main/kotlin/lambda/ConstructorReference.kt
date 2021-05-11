@@ -16,9 +16,14 @@ fun main() {
 
     // 확장함수 레퍼런스
     val aaaa = ReferencePerson::plusAge
+    // 바운드 멤버 참조 -> 레퍼런스의 타입이 아닌 객체 자체를 지정함으로서 이를 사용하는 곳에서 객체를 적어주지 않아도 됨
+    val bbbb = p::plusAge
 
     p.plusAge(123)
     aaaa(p, 123)
+
+    // 바운드 멤버 참조 -> aaaa 와는 다르게 수신객체를 적지 않음 !!
+    bbbb(123)
 
     println(p)
 }
