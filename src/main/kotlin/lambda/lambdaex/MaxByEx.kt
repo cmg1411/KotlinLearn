@@ -1,8 +1,10 @@
-package lambda
+package lambda.lambdaex
+
+import lambda.Person
 
 class MaxByEx {}
 
-var people = listOf(Person("Tomas", 27), Person("OldTomas", 55), Person("YoungTomas", 25))
+var people = listOf(Person("Tomas", 27), Person("OldTomas", 55), Person("YoungTomas", 25), Person("Amen", 77))
 
 fun main() {
     // 함수 호출 시 맨 뒤에 있는 인자가 람다식이라면 괄호 밖으로 뺴낼 수 있따. 아래처럼.

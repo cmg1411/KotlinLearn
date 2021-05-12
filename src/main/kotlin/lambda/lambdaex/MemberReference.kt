@@ -1,4 +1,6 @@
-package lambda
+package lambda.lambdaex
+
+import lambda.Person
 
 class MemberReference {}
 
